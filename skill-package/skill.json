@@ -28,6 +28,9 @@
       "locales": {
         "de-DE": {
           "name": "alexa-typescript-starter"
+        },
+        "it-IT": {
+          "name": "alexa-typescript-starter"
         }
       }
     }
