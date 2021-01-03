@@ -26,10 +26,10 @@
     },
     "publishingInformation": {
       "locales": {
-        "de-DE": {
+        "it-IT": {
           "name": "alexa-typescript-starter"
         },
-        "it-IT": {
+        "en-US": {
           "name": "alexa-typescript-starter"
         }
       }
