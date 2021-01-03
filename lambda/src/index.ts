@@ -10,8 +10,7 @@ const LaunchRequestHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput =
-      "Welcome in this skill written in TypeScript!";
+    const speakOutput = "Welcome in this skill written in TypeScript!";
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
@@ -26,7 +25,7 @@ const HelloWorldIntentHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput = "Hello World Dude!";
+    const speakOutput = "Hello!";
     return (
       handlerInput.responseBuilder
         .speak(speakOutput)
