@@ -11,7 +11,7 @@ const LaunchRequestHandler = {
   },
   handle(handlerInput) {
     const speakOutput =
-      "Welcome, you can say Hello or Help. Which would you like to try?";
+      "Welcome in this skill written in TypeScript!";
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
