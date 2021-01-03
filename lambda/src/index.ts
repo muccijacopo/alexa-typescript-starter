@@ -26,7 +26,7 @@ const HelloWorldIntentHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput = "Hello World man!";
+    const speakOutput = "Hello World Dude!";
     return (
       handlerInput.responseBuilder
         .speak(speakOutput)
