@@ -1,3 +1,3 @@
-const skill = require("./src/index");
+const skill = require("./build/index");
 
 exports.handler = skill;
