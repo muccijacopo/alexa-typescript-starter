@@ -4,7 +4,8 @@
   "description": "alexa utility for quickly building skills",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run build",
+    "postinstall": "npm run clean && npm run build",
+    "clean": "rimraf ./build",
     "build": "tsc"
   },
   "author": "Amazon Alexa",
@@ -13,6 +14,7 @@
     "ask-sdk-core": "^2.6.0",
     "ask-sdk-model": "^1.18.0",
     "aws-sdk": "^2.326.0",
+    "rimraf": "^3.0.2",
     "typescript": "^4.1.3"
   },
   "devDependencies": {
